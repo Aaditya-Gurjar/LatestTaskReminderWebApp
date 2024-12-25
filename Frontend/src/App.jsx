@@ -59,10 +59,10 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-      <div className="relative w-full h-full flex items-center justify-center bg-cover bg-center p-10">
+      <div className="relative w-full h-full flex items-center justify-center bg-cover bg-center p-4 sm:p-10">
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="z-10 text-center text-white space-y-8">
-          <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
             Task Reminder System
           </h1>
           <p className="text-lg sm:text-xl italic">
@@ -70,7 +70,7 @@ function App() {
           </p>
           <form
             onSubmit={handleSubmit}
-            className="mt-10 space-y-6 p-8 bg-white rounded-lg shadow-lg max-w-md mx-auto"
+            className="mt-10 space-y-6 p-6 sm:p-8 bg-white rounded-lg shadow-lg max-w-md mx-auto"
           >
             <div>
               <label className="block text-sm font-medium text-gray-700">Title</label>
